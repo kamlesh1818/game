@@ -2,7 +2,7 @@ import random
 
 while True:
 
-    print("lets start game")
+    print("lets fucking start the game")
     choose=input("enter your choice:")
     list=["stone","paper","scissor"]
     comp=random.choice(list)
@@ -10,7 +10,7 @@ while True:
     if(choose==comp):
         print("draw")
     elif(choose=="stone" and comp=="paper"):
-        print("you lose")
+        print("you lose ")
     elif(choose=="stone" and comp=="scissor"):
         print("you won")
     elif(choose=="paper" and comp=="scissor"):
